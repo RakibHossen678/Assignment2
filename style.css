@@ -5,7 +5,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
+  
     font-family: 'Mulish', sans-serif;
 }
 
@@ -52,8 +52,101 @@ nav {
     font-weight: 400;
 }
 
-.link ul li .home {
+.link ul li a span {
     color: #FF5400;
+}
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url(images/Group13.png);
+    background-repeat: no-repeat;  
+    max-width: 1170px;
+    max-height: 500px;
+    border-radius: 16px;
+    margin:  0 auto;
+
+    
+}
+.banner_content{
+    text-align: center;
+    padding: 150px 140px;
+    color: #FFF;
+
+}
+
+.banner_content h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.banner_content p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form input {
+    border-radius: 8px;
+    background: #FFF;
+    outline: none;
+    border: none;
+    padding: 16px;
+    width: 175px;
+}
+
+.where {
+    border-radius: 8px;
+    background: #FFF;
+    outline: none;
+    border: none;
+    padding: 16px;
+    width: 175px;
+}
+
+.select {
+    border-radius: 8px;
+    background: #FFF;
+    outline: none;
+    border: none;
+    padding: 16px;
+    width: 175px;
+}
+
+.button {
+    padding: 13px;
+    width: 175px;
+    border-radius: 8px;
+    background: #FF5400;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    background: none;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+
+
+}
+
+.button span img {
+    width: 24px;
+
+
 }
 
 
@@ -67,10 +160,38 @@ nav {
 
 /* Responsive Design */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
+    header{
+        margin: 10px;
+    }
     nav {
         flex-direction: column;
-        margin: 20px;
+        margin: 10px 0 20px;
+        padding:0px;
     }
-    
+    .banner{
+        padding: 10px;
+        padding: 0px;
+    }
+    .form{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner_content{
+        padding: 20px;
+    }
+    .banner_content h1{
+        font-size: 25px;
+    }
+    .link ul{
+        flex-direction: column;
+    }
+    .where{
+        width: 200px;
+    }
+    .select{
+        width: 200px;
+    }
+
+
 }
