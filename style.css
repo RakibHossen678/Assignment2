@@ -5,7 +5,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-  
+
     font-family: 'Mulish', sans-serif;
 }
 
@@ -57,16 +57,17 @@ nav {
 }
 
 .banner {
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url(images/Group13.png);
-    background-repeat: no-repeat;  
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(images/Group13.png);
+    background-repeat: no-repeat;
     max-width: 1170px;
     max-height: 500px;
     border-radius: 16px;
-    margin:  0 auto;
+    margin: 0 auto;
 
-    
+
 }
-.banner_content{
+
+.banner_content {
     text-align: center;
     padding: 150px 140px;
     color: #FFF;
@@ -149,7 +150,211 @@ nav {
 
 }
 
+.card {
+    display: none;
+}
 
+.popular {
+    padding: 80px 145px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular_content {
+    width: 48%;
+}
+
+.popular_content h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 17px;
+}
+
+.popular_content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.list li {
+    list-style: disc;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 30px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.popular_img {
+    width: 48%;
+}
+
+.popular_img img {
+    width: 100%;
+}
+
+.destination {
+    padding: 80px 145px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.img3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.destination_content {
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.destination_content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.destination_content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.img1 h2 {
+    position: relative;
+    bottom: 170px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img2 h2 {
+    position: relative;
+    bottom: 170px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img3 h2 {
+    position: relative;
+    bottom: 170px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.choose {
+    padding: 80px 145px;
+    
+}
+
+.chose_content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.chose_content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.choose p {
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.chose_service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.chose_service div {
+    max-width: 570px;
+}
+
+.chose_service div h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0;
+
+}
+
+.hotel {
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+
+}
+
+.location {
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+
+}
+
+
+.price {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+
+
+    border-radius: 16px;
+    padding: 32px;
+    background: rgba(233, 68, 68, 0.05);
+   position: relative;
+   left: 300px;
+
+}
 
 
 
@@ -161,36 +366,111 @@ nav {
 /* Responsive Design */
 
 @media screen and (max-width:576px) {
-    header{
+    header {
         margin: 10px;
     }
+
     nav {
-        flex-direction: column;
+
         margin: 10px 0 20px;
-        padding:0px;
+        padding: 0px;
     }
-    .banner{
+
+    .banner {
         padding: 10px;
         padding: 0px;
     }
-    .form{
+
+    .form {
         flex-direction: column;
         gap: 10px;
     }
-    .banner_content{
+
+    .banner_content {
         padding: 20px;
     }
-    .banner_content h1{
+
+    .banner_content h1 {
         font-size: 25px;
     }
-    .link ul{
+
+    .link {
+        display: none;
+    }
+
+    .link ul {
         flex-direction: column;
     }
-    .where{
+
+    .where {
         width: 200px;
     }
-    .select{
+
+    .select {
         width: 200px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .logo h2 {
+        font-size: 22px;
+
+    }
+
+    .card {
+        margin-top: -10px;
+        display: inline;
+    }
+
+    .popular {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .popular_content {
+        width: 100%;
+    }
+
+    .popular_img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .destination {
+        padding: 20px;
+    }
+
+    .img1 {
+        flex-direction: column;
+    }
+
+    .img2 {
+        flex-direction: column;
+    }
+
+    .img3 {
+        flex-direction: column;
+
+    }
+
+    .img3 h2 {
+        bottom: 100px;
+    }
+
+    .destination_img img {
+        width: 100%;
+    }
+    .choose{
+        padding: 20px;
+    }
+    .chose_service{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .price{
+        left: 0;
     }
 
 
