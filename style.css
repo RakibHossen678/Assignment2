@@ -36,9 +36,13 @@ nav {
     color: #FF5400;
 }
 
+
+
 .link ul {
     display: flex;
     align-items: center;
+
+
 
 }
 
@@ -92,6 +96,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px 0;
 }
 
 .form input {
@@ -194,13 +201,14 @@ nav {
 
 }
 
-.btn {
+.bttn {
     border-radius: 8px;
     background: #FF5400;
     padding: 14px 30px;
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
+    border: none;
 }
 
 .popular_img {
@@ -283,7 +291,7 @@ nav {
 
 .choose {
     padding: 80px 145px;
-    
+
 }
 
 .chose_content {
@@ -346,15 +354,198 @@ nav {
 
 .price {
     border: 1px solid rgba(233, 68, 68, 0.20);
-
-
     border-radius: 16px;
     padding: 32px;
     background: rgba(233, 68, 68, 0.05);
-   position: relative;
-   left: 300px;
+    position: relative;
+    left: 300px;
 
 }
+
+.deals {
+    padding: 80px 145px;
+}
+
+.deals_title {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deals_title h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.deals_title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.div1 {
+    background-image: url(images/Group\ 39.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 500px;
+    padding: 65px 500px;
+    margin-bottom: 30px;
+
+}
+
+.div1_content {
+    max-width: 570px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 50px;
+
+}
+
+.div1_content span a {
+    color: #FF5400;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.div1_content h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.div1_content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.div1_content h3 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.div2 {
+    background-image: url(images/Group\ 39.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 500px;
+    padding: 65px 50px;
+    margin-bottom: 30px;
+}
+
+.div2_content {
+    max-width: 570px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 50px;
+
+}
+
+.div2_content span a {
+    color: #FF5400;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.div2_content h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.div2_content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.div2_content h3 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.div3 {
+    background-image: url(images/Group\ 39.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 500px;
+    padding: 65px 500px;
+    margin-bottom: 30px;
+
+}
+
+.div3_content {
+    max-width: 570px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 50px;
+
+}
+
+.div3_content span a {
+    color: #FF5400;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.div3_content h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.div3_content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.div3_content h3 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.package{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -462,16 +653,26 @@ nav {
     .destination_img img {
         width: 100%;
     }
-    .choose{
+
+    .choose {
         padding: 20px;
     }
-    .chose_service{
+
+    .chose_service {
         grid-template-columns: 1fr;
         gap: 10px;
     }
-    .price{
+
+    .price {
         left: 0;
     }
+    .deals{
+        padding: 20px;
+    }
+    .div1 , .div2 , .div3{
+        padding: 20px
+    }
+    
 
 
 }
