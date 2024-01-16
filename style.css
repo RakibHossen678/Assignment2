@@ -393,7 +393,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     max-height: 500px;
-    padding: 65px 500px;
+    padding: 65px;
     margin-bottom: 30px;
 
 }
@@ -404,6 +404,8 @@ nav {
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     padding: 50px;
+    position: relative;
+    left: 450px;
 
 }
 
@@ -488,8 +490,10 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     max-height: 500px;
-    padding: 65px 500px;
+    padding: 65px;
     margin-bottom: 30px;
+
+
 
 }
 
@@ -499,6 +503,8 @@ nav {
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     padding: 50px;
+    position: relative;
+    left: 450px;
 
 }
 
@@ -529,14 +535,95 @@ nav {
     font-weight: 800;
     margin-bottom: 10px;
 }
-.package{
+
+.package {
     text-align: center;
 }
 
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 145px;
+}
 
+.news_content {
+    width: 48%;
+}
 
+.news_image {
+    width: 48%;
+    background-image: url(images/Rectangle\ 8\ \(1\).png);
+    height: 420px;
+    border-radius: 16px;
+}
 
+.news_img_contner {
+    position: relative;
+    left: 310px;
+    top: 280px;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 10px 10px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    width: 240px;
+    height: 80px;
+    transform: rotate(-19.628deg);
 
+}
+
+.news_img_contner p {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.news_content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.news_content h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.news_content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.name {
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 70%;
+    margin: 20px 0;
+    padding: 15px 10px;
+}
+
+.email {
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 70%;
+    margin: 20px 0;
+    padding: 15px 10px;
+}
 
 
 
@@ -666,11 +753,38 @@ nav {
     .price {
         left: 0;
     }
-    .deals{
+
+    .deals {
         padding: 20px;
     }
-    .div1 , .div2 , .div3{
+
+    .div1,
+    .div2,
+    .div3 {
         padding: 20px
+    }
+
+    .div1_content,
+    .div3_content {
+        left: 0px;
+    }
+    .newsletter{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .news_content{
+        width: 98%;
+    }
+    .news_image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .news_img_contner{
+        top: 280px;
+        left: 70px;
+    }
+    .news_content {
+        margin-right: 0;
     }
     
 
