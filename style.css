@@ -718,7 +718,38 @@ footer p {
     width: 100%;
     border-radius: 16px;
 }
+.Hike{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 145px;
+}
+.hike_content{
+    width: 48%;
+}
+.hike_image{
+    width: 48%;
+}
+.hike_image img{
+    width: 100%;
+    border-radius: 16px;
+}
+.hike_content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 10px;
 
+}
+
+.hike_content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -897,13 +928,17 @@ footer p {
     .logo_name h2 {
         padding-left: 10px;
     }
-    .place{
+    .place {
         padding: 20px;
         flex-direction: column;
     }
-    .place_content , .place_video{
+    .place_content , .place_video , .hike_content ,.hike_image{
         width: 100%;
         margin-bottom: 20px;
+    }
+    .Hike{
+        flex-direction: column;
+        padding: 20px;
     }
 
 
