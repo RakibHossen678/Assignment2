@@ -625,6 +625,45 @@ nav {
     padding: 15px 10px;
 }
 
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px 300px;
+}
+
+.logo_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.logo_name span {
+    color: #FF5400;
+}
+
+footer p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.social a {
+    color:#5A5A5D ;
+    padding-left: 20px;
+    
+}
+.social{
+    margin-bottom: 20px;
+}
+.copy{
+    margin-top: 30px;
+}
+
 
 
 
@@ -768,25 +807,40 @@ nav {
     .div3_content {
         left: 0px;
     }
-    .newsletter{
+
+    .newsletter {
         padding: 20px;
         flex-direction: column;
     }
-    .news_content{
+
+    .news_content {
         width: 98%;
     }
-    .news_image{
+
+    .news_image {
         width: 100%;
         margin-top: 20px;
     }
-    .news_img_contner{
+
+    .news_img_contner {
         top: 280px;
         left: 70px;
     }
+
     .news_content {
         margin-right: 0;
     }
-    
+    footer{
+        padding: 20px;
+    }
+    .logo_name{
+        
+        font-size: 15px;
+    }
+    .logo_name h2{
+        padding-left: 10px;
+    }
+
 
 
 }
